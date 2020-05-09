@@ -1,0 +1,88 @@
+.header{
+    width: 100%;
+    height: auto;
+    &__top{
+        background-color: $color-red;
+        &-wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            .header__top-language{
+                color: $color-white;
+                font-size: 14px;
+                letter-spacing: 0px;
+                line-height: 24px;
+                font-family: "Poppins";
+                font-weight: 400;
+                .down-arrow{
+                    width: 10px;
+                    height: 10px;
+                    display: inline-block;
+                    margin-left: 2px;
+                }
+            }
+            .header-contacts{
+                &__link{
+                    color: $color-white;
+                    font-size: 14px;
+                    letter-spacing: 0px;
+                    line-height: 24px;
+                    font-family: "Font Awesome";
+                    margin-right: 25px;
+                    padding: 0;
+                    &:last-child{
+                        margin-right: 0;
+                        position: relative;
+                        &::after{
+                            position: absolute;
+                            content: "";
+                            top: 2px;
+                            background-image: url(/img/svg/down-arrow.svg);
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__bottom{
+        background-color: $color-yellow;
+        &-wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 26px 0;
+            .main-nav{
+                &__link{
+                    color: $color-red;
+                    margin-right: 45px;
+                    font-size: 14px;
+                    letter-spacing: 0px;
+                    line-height: 24px;
+                    font-family: "Poppins";
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    position: relative;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+            .header__search{
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                filter: drop-shadow(0px 10px 9px rgba(186,0,0,0.4));
+                background-color: $color-red;
+                &-icon{
+                    .search-icon{
+                        font-weight: bold;
+                    }                
+                }
+            }
+        }
+    }
+}
+

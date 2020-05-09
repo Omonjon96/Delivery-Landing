@@ -1,0 +1,93 @@
+.banner{
+    width: 100%;
+    height: auto;
+    background: #c0c0c0;
+    background-image: linear-gradient(45deg, #b90000 0%, rgba(255,203,0,0) 99%),url(../../img/banner/banner-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding: 180px 0;
+    &__title{
+        max-width: 40%;
+        margin-bottom: 50px;
+        font-size: 70px;
+        letter-spacing: 2px;
+        color: $color-white;
+        font-family: "Poppins";
+    }
+    &__line{
+        display: block;
+        width: 100px;
+        height: 4px;
+        background-color: $color-yellow;
+        margin-bottom: 40px;
+    }
+    &__text{
+        max-width: 65%;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        color: $color-yellow;
+        font-family: "Poppins";
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    &__info{
+        margin-bottom: 40px;
+        &-item{
+            font-size: 20px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            color: $color-white;
+            font-family: "Poppins";
+            text-transform: uppercase;
+            position: relative;
+            &:not(:last-child){
+                margin-right: 60px;
+                &::after{
+                    position: absolute;
+                    content: ".";
+                    bottom: -4px;
+                    right: -40px;
+                    color: $color-yellow;
+                }
+            }
+        }
+    }
+    &__buttons{
+        a{
+            font-size: 12px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            font-family: "Poppins";
+            text-transform: uppercase;
+            border-radius: 25px;
+            height: 51px;
+        }
+        .learn-more{
+            padding: 15px 17px;
+            color: $color-red;
+            background-color: $color-yellow;
+            min-width: 151px;
+            margin-right: 20px;
+            &:hover{
+                background-color: transparent;
+                border: 1px solid $color-white;
+                color: $color-white;
+            }
+        }
+
+        .offer-button{
+            padding: 13px 15px;
+            color: $color-white;
+            background-color: transparent;
+            border: 1px solid $color-white;
+            min-width: 193px;
+            &:hover{
+                background-color: $color-yellow;
+                border: none;
+                color: $color-red;
+            }
+        }
+    }
+}

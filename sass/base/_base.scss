@@ -1,0 +1,51 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    cursor: pointer;
+}
+
+*,
+*:focus,
+*:focus-within {
+outline: none;
+outline-color: transparent;
+text-decoration: none;
+}
+
+
+
+

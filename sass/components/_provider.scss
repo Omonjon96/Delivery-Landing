@@ -1,0 +1,102 @@
+.provider{
+    width: 100%;
+    height: 100%;
+    padding-top: 76px;
+    background-image: linear-gradient(0deg, rgba(255,203,0,0.7019607843137255) 0%, rgba(185,0,0,0) 100%) ,url(../../img/service-provider/provider-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    // position: relative;
+    // &::before{
+    //     content: "";
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 100%;
+    //     top: 0;
+    //     left: 0;
+    //     right: 0;
+    //     bottom: 0;
+    //     background-image: linear-gradient(0deg, rgba(255,203,0,0.7019607843137255) 0%, rgba(185,0,0,0) 100%);
+    // }
+    &__wrapper{
+        text-align: center;
+        &-title{
+            font-size: 50px;
+            letter-spacing: 2px;
+            color: $color-white;
+            font-family: "Poppins";
+            text-align: center;
+            margin-bottom: 55px;
+        }
+
+        &-play{
+            width: 70px;
+            height: 70px;
+            margin: 0 auto;
+            border-radius: 35px;
+            filter: drop-shadow(0px 10px 9px rgba(255,204,0,0.4));
+            background-color: $color-yellow;
+            border: 2px solid $color-yellow;
+            &::after{
+                position: absolute;
+                content: "";
+                top: 22px;
+                right: 22px;
+                border-left: solid 15px $color-red;
+                border-bottom: solid 10px transparent;
+                border-top: solid 10px transparent;
+            }
+        }
+
+        &-offer{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 270px;
+            .provider__offer-item{
+                background-color: $color-white;
+                filter: drop-shadow(0px 10px 9px rgba(191,191,191,0.4));
+                text-align: left;
+                &__image{
+                    width: 100%;
+                    height: auto;
+                }
+                &__title{
+                    font-size: 20px;
+                    letter-spacing: 1px;
+                    color: $color-red;
+                    font-family: "Poppins";
+                    margin-top: 28px;
+                    margin-left: 28px;
+                }
+                .provider__offer-list{
+                    list-style: none;
+                    margin-left: 28px;
+                    margin-top: 28px;
+                    &__item{
+                        font-size: 20px;
+                        letter-spacing: 1px;
+                        line-height: 24px;
+                        color: $color-light;
+                        font-family: "Font Awesome";
+                        position: relative;
+                        margin-left: 20px;
+                        &:not(:last-child){
+                            margin-bottom: 15px;
+                        }
+                        &::before{
+                            position: absolute;
+                            content: "";
+                            top: 5px;
+                            left: -20px;
+                            border-left: solid 10px $color-yellow;
+                            border-bottom: solid 6px transparent;
+                            border-top: solid 6px transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}

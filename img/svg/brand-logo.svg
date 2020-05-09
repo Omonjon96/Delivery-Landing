@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134 42" width="134" height="42">
+	<defs>
+		<image width="134" height="42" id="img1" href="data:undefined;base64,R0lGODlhhgAqAKIAANkzAM8NAPmyAN9NAOlyAPKZAMwAAP/MACH5BAAAAAAALAAAAACGACoAAAP/eLrc/jDKSau9OOvNu/9gKI5kaZ5oqq5s675wLM90bd94ru987//AoFA4MBiPyKTyGBgIIIQl8qkoSI9UwNVI6Fm34GSAyhAEtl2FGa2IbgG9dXhuDDi0V/gCL9XLpWM9fHRzBQxFV4EKiIBPAoNLhjyMhHNpB19XZJlSVJRLAz4Fo6SlpqduUml/SwAErwRnV2mpfUMHAgQAu7y9DJBIisCVSH6yjbefSXoHtUqSysRMWWCSQs5iVKxJoZjSV9Bg3ULbSdbRRsbfS2mcrWRBw0fjVaej2vb5+qQLAvsF8FjkgkWwYMED6Jj0WtiLii6GvhY8hLhrD8WLELsY3PiKgIKASgD8reNWpVo/k81GTvtoyeM/UwLKSesmc16/Y6DUqDwC8GUpCu62hJJHKMAlogaYHUDKLOjMpYQuRfDn8wk2YiElblGUMhGZmnRCUvUJEOicMU7DOimDEhcYqbgG4CwqshLcW3jz6t3Lt6/fv4ADCx5MuLDhw4gTK17MWEgCADs="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="header">
+		<g id="main-menu">
+			<g id="logo">
+				<use id="dhl_logo" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+			</g>
+		</g>
+	</g>
+</svg>
