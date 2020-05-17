@@ -639,7 +639,7 @@ button:focus {
 }
 .contact__wrapper .contact__hero {
   position: relative;
-  z-index: 2;
+  z-index: -1;
 }
 .contact__wrapper .contact__hero::before {
   z-index: 1;
@@ -649,7 +649,10 @@ button:focus {
   width: 100%;
   height: 100%;
   top: -35px;
-  left: -35px;
+  left: -55px;
+}
+.contact__wrapper .contact__hero::before img {
+  z-index: 6;
 }
 
 /*# sourceMappingURL=main.css.map */

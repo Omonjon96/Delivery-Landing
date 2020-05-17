@@ -1,14 +1,14 @@
 $(function() {
     $(document).ready(function(){
-        $('.tab-group__item a').on('click', function (e) {
-            e.preventDefault();
-            $(this).parent().addClass('active');
-            $(this).parent().siblings().removeClass('active');
+        // $('.tab-group__item a').on('click', function (e) {
+        //     e.preventDefault();
+        //     $(this).parent().addClass('active');
+        //     $(this).parent().siblings().removeClass('active');
             
-            var href = $(this).attr('href');
-            $('.contact__form > form').hide();
-            $(href).fadeIn(500);
-        });
+        //     var href = $(this).attr('href');
+        //     $('.contact__form > form').hide();
+        //     $(href).fadeIn(500);
+        // });
 
 
         $(".logistics").click(function(e){
